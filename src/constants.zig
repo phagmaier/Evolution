@@ -1,0 +1,17 @@
+pub const ROWS: u32 = 50;
+pub const COLS: u32 = 50;
+pub const AGENTS: u32 = 50;
+pub const ROUNDS: u32 = 1000;
+pub const ENERGYCAP: u32 = 100;
+pub const STARTINGENERGY: u8 = 50;
+pub const EAT: u8 = 10;
+pub const ENERGYDRAIN: u8 = 1;
+pub const LOSE: u8 = 3;
+pub const FIGHT: u8 = 8;
+pub const KILLBONUS: u8 = 5;
+pub const REPRODUCE: u8 = 70;
+pub const CHILDENERGY: u8 = 40;
+pub const COSTREPRODUCTION: u8 = 25;
+pub const FOODPERTICK: u32 = 20;
+pub const MAXAGE: u16 = 500;
+pub const ITERATIONS: usize = 1000;
